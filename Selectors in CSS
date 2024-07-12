@@ -1,0 +1,72 @@
+<!--HTML part for Type 1 and Type 2-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+   <p>Hii, how are you ?</p>
+   <button>Click here</button>
+</body>
+</html>
+<!-- CSS part Type 1 -->
+<!-- Universal selector-->
+*{
+    background-color:#0000ff ;
+    color:#28c1eb;
+}
+<!-- CSS part Type 2 -->
+<!-- Element selector-->
+p{
+    background-color:#0000ff ;
+    color:#28c1eb;
+}
+<!-- html part for Type 3-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+   <h1 id="Code1"> Code with Aayu </h1>
+   <h1 id="Code2"> Code with Aayukti </h1>
+   <h3 id="Code3"> Code with Ayukti </h3>
+</body>
+</html>
+<!-- CSS part Type 3 -->
+<!-- id selector-->#Code1{
+    color: #1ac58c;
+}
+#Code2{
+    color:#73a494;
+}
+
+#Code3{
+    color: #155942;
+}
+<!-- html part for Type 4-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+   <p class="ClassA"> Code with Aayukti </p>
+   <h3 class="ClassA" > Code with Ayukti </h3>
+</body>
+</html>
+<!-- CSS part Type 4 -->
+<!-- Class selector-->
+.ClassA{
+    color:#e1510e;
+}
+
