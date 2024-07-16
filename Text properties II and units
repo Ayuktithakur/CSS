@@ -1,0 +1,55 @@
+<!--HTML part for prop.1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<p id="one">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus in mollitia fugiat veniam cum illo voluptate quibusdam debitis labore ratione dolorem aut iusto provident doloremque maxime sunt, laboriosam, placeat iste?
+</p>
+<p id="two">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus in mollitia fugiat veniam cum illo voluptate quibusdam debitis labore ratione dolorem aut iusto provident doloremque maxime sunt, laboriosam, placeat iste?
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores aspernatur eius sunt doloremque eligendi eos vitae excepturi, in molestias esse, ex deleniti quae voluptatem aut. Velit quod nulla consequatur ullam.
+Quis accusantium repudiandae veniam amet nesciunt laboriosam voluptatibus dicta hic facere. Natus saepe tenetur placeat similique, accusamus nulla distinctio voluptatum. Molestias itaque veritatis fugiat. Nihil perferendis provident dolor earum nostrum.</p>
+</body>
+</html>
+/*CSS part for prop.1*/
+#one{
+line-height:  30px;
+}
+#two{
+    line-height:  20px;
+}
+<!--HTML part for prop.2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<p> Dogs are the loyest one's in the world.</p>
+<b> Dogs are the loyest one's in the world.</b>
+<i> Dogs are the loyest one's in the world.</i>
+</body>
+</html>
+/*CSS part for prop.2*/
+p{
+text-transform: uppercase;
+}
+b{
+    text-transform:capitalize ; 
+}
+i{
+    text-transform: lowercase; 
+}
+
+
