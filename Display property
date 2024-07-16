@@ -1,0 +1,67 @@
+<!--HTML part  for prop.1 and prop.2-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+ <div>
+    You are the one.
+ </div>
+ <Button>Click here</Button>
+</body>
+</html>
+/*CSSL part  for prop.1 and prop.2*/
+div{
+    background-color: orangered;
+    display: inline;
+}
+button{
+    background-color:  yellow;
+    display: block;
+}
+<!--HTML part  for prop.3 and prop.4-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    /*CSSL part  for prop.3 and prop.4*/
+</head>
+<body>
+    <h1>Display playground</h1>
+ <div id="D1"> 1</div>
+ <div class="box2" id="D2">2</div>
+  <div id="D3">3</div>
+</body>
+</html>
+
+#D1{
+    background-color: red; 
+}
+#D2{
+    background-color: yellow;
+}
+#D3{
+    background-color: green;
+}
+div{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline;
+    display: inline-block;
+}
+.box2{
+    display: none;
+}
+/*CSSL part  for prop.5*/
+.box2{
+visibility: hidden;
+}
